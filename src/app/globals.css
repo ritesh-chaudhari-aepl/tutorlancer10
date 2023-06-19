@@ -2,26 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.heroBg{
+    background-image: url('../assets/heroBg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.navBg{
+    background-image: url('../assets/navBg.png');
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    
+}
+.aboutBg{
+    background-image: url('../assets/aboutBg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.becomeATutorBg{
+    background-image: url('../assets/becomeATutorBg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.becomeATutorBgBoy{
+    background-image: url('../assets/becomeATutorBoy.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.becomeATutorBgGirl{
+    background-image: url('../assets/becomeATutorGirl.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.requestAQuoteBg{
+    background-image: url('../assets/requestAQuote.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.downloadBg{
+    background-image: url('../assets/downloadBg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.iconstyle{
+    font-size: 2rem;
 }
