@@ -3,7 +3,7 @@
 
 const ServiceCard = ({ icon, bgColor, badgeCount, iconColor, title,msg }) => {
     return (
-        <div className={`card  shadow-sm bg-white rounded-md  w-64  pb-4 flex flex-col justify-center items-center`}>
+        <div className={`card  shadow-sm bg-white rounded-md  w-64  py-4 flex flex-col justify-center items-center`}>
           {icon && (
             <div className={`h-10 mb-3 w-10 p-9 rounded-full ${bgColor} flex flex-col items-center justify-center relative`}>
               {React.cloneElement(icon, { color: iconColor })}
@@ -15,7 +15,7 @@ const ServiceCard = ({ icon, bgColor, badgeCount, iconColor, title,msg }) => {
             </div>
           )}
           <p className="font-[500] text-lg py-3 text-center px-3">{title}</p>
-          <p className="font-[500] text-xs text-center px-3">{msg}</p>
+          {/* <p className="font-[500] text-xs text-center px-3">{msg}</p> */}
         </div>
       );
 }

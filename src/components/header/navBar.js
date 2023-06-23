@@ -1,6 +1,10 @@
 import React from "react";
 import { nav } from "@/data/nav";
 const Navbar = () => {
+  const navigate=(href)=>{
+    let value=document.getElementById(href)
+    value.scrollIntoView({behavior:'smooth',block:'center',inline:'center'})
+  }
   return (
     <nav>
       <ul className="flex sm:gap-4">
@@ -10,8 +14,8 @@ const Navbar = () => {
           return (
             <li key={item.name}>
               <a
-                className="text-dark hover:text-lightBg-b  rounded-md font-Inter sm:text-base font-bold transition"
-                href={href}
+                className="text-normalWhite cursor-pointer  hover:text-btnColor  rounded-md font-Inter sm:text-base font-bold transition"
+                onClick={()=>navigate(href)}
               >
                 {name}
               </a>

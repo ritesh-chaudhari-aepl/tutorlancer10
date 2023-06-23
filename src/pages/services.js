@@ -1,13 +1,15 @@
  "use client"
  import MailOutlineOutlinedIcon from '@mui/icons-material/MailOutlineOutlined';
- 
+ import BookmarkAddedOutlinedIcon from '@mui/icons-material/BookmarkAddedOutlined';
+ import StarBorderOutlinedIcon from '@mui/icons-material/StarBorderOutlined';
+ import EmojiEventsOutlinedIcon from '@mui/icons-material/EmojiEventsOutlined';
  import ar1 from "@/assets/down.svg";
  import ar2 from "@/assets/up.svg";
 import Image from "next/image";
 import ServiceCard from "../components/card/serviceCard";
 const Services = () => {
   return (
-    <section className="bg-primaryWhite">
+    <section  className="bg-primaryWhite">
     <div className="mx-auto max-w-screen-xl mt-16 sm:mt-0 py-14 sm:py-24">
       <div>
         
@@ -19,7 +21,7 @@ const Services = () => {
                 bgColor="bg-[#FFDCE5]"
                 badgeCount={1}
                 iconColor="#FF1850"
-                title="Worldwide Service"
+                title="Connect with us via email/Whatsapp"
                 msg="can their wherein own upon female without saying made in second them male own you. him fill good last seasons hath moved and"
               />
               <Image
@@ -30,11 +32,11 @@ const Services = () => {
             </div>
             <div className="flex flex-col gap-9 lg:gap-0 lg:flex-row justify-center items-center">
               <ServiceCard
-                icon={<MailOutlineOutlinedIcon fontSize='large' />}
+                icon={<BookmarkAddedOutlinedIcon fontSize='large' />}
                 bgColor="bg-[#EFDEFF]"
                 badgeCount={2}
                 iconColor="#952AFF"
-                title="Worldwide Service"
+                title="Book a session for the topic of your choice"
                 msg="can their wherein own upon female without saying made in second them male own you. him fill good last seasons hath moved and"
               />
               <Image
@@ -45,11 +47,11 @@ const Services = () => {
             </div>
             <div className="flex flex-col gap-9 lg:gap-0 lg:flex-row justify-center items-center">
               <ServiceCard
-                icon={<MailOutlineOutlinedIcon fontSize='large' />}
+                icon={<StarBorderOutlinedIcon fontSize='large' />}
                 bgColor="bg-[#E0F5E9]"
                 badgeCount={3}
                 iconColor="#1FAF38"
-                title="Worldwide Service"
+                title="Learn from the best doers we provide"
                 msg="can their wherein own upon female without saying made in second them male own you. him fill good last seasons hath moved and"
               />
               <Image
@@ -60,11 +62,11 @@ const Services = () => {
             </div>
             <div>
               <ServiceCard
-                icon={<MailOutlineOutlinedIcon fontSize='large' />}
+                icon={<EmojiEventsOutlinedIcon fontSize='large' />}
                 bgColor="bg-[#FFDCE5]"
                 badgeCount={4}
                 iconColor="#FF1850"
-                title="Worldwide Service"
+                title="Turn your grades into Mega grades"
                 msg="can their wherein own upon female without saying made in second them male own you. him fill good last seasons hath moved and"
               />
               {/* <Image src={ar1} alt="ar1" /> */}

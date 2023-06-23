@@ -21,14 +21,14 @@ const data=[
 ]
 const About = () => {
   return (
-    <div className="aboutBg"> 
+    <div id="about" className="aboutBg"> 
         <div className="max-w-screen-xl  items-center mx-auto">
             <div className="grid px-0 sm:px-12 lg:grid-flow-col grid-flow-row grid-cols-1 lg:grid-cols-2">
                 <div className="lg:py-20 sm:py-10 py-0 sm:px-10 px-0 lg:px-7"><Image className="" src={aboutImg} alt="not found" /></div>
                 <div className="lg:py-20 py-7 px-7">
-                    <div className="font-sans font-bold text-normalWhite py-4 text-3xl">About Tutorlancer</div>
-                    <div className="text-normalWhite py-4 text-sm">Separated they live in. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</div>
-                    <div className="text-normalWhite text-sm">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</div>
+                    <div className="font-sans font-bold text-normalWhite py-4 text-3xl">About TutorBoat</div>
+                    <div className="text-normalWhite py-4 text-sm">Embark on a transformative learning journey with TutorBoat, your trusted partner in education. We offer personalized and comprehensive tutoring services designed to empower students of all ages and abilities. </div>
+                    <div className="text-normalWhite text-sm">Our team of expert educators are dedicated to nurturing academic growth, building confidence, and unlocking the full potential of every learner. From math and science to language arts and test preparation, we provide tailored guidance that sails beyond the classroom. Discover a voyage towards educational excellence with TutorBoat today.</div>
                 </div>
             </div>
             <div className="mx-auto relative text-center lg:pt-0 sm:pt-8  text-normalWhite justify-between px-4 sm:px-12 lg:px-24 pb-6 sm:pb-12 lg:pb-20 w-full  grid grid-cols-2  sm:grid-cols-2 lg:grid-cols-4 grid-flow-row">
