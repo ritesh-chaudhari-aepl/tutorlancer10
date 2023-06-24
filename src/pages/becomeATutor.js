@@ -21,7 +21,7 @@ const BecomeATutor = () => {
                 We are hear to build your career.
               </p>
               <a
-            href="#"
+            href="/"
             className="inline-block rounded-md text-normalWhite w-fit bg-btnColor px-5 py-3 text-xs font-medium text-lightBg-n transition   capitalize"
           >
             Contact Us
@@ -42,7 +42,7 @@ const BecomeATutor = () => {
                 We are hear to build your career.
               </p>
               <a
-            href="#"
+            href="/"
             className="inline-block rounded-md text-normalWhite w-fit bg-btnColor px-5 py-3 text-xs font-medium text-lightBg-n transition   capitalize"
           >
             Contact Us

@@ -98,7 +98,7 @@ const Services = () => {
               </p>
 
               <a
-                href="#"
+                href="/"
                 className="mt-8 inline-block rounded-full bg-yellow-dark px-12 py-3 text-sm font-medium text-black transition hover:bg-yellow-light focus:outline-none focus:ring focus:ring-yellow-400"
               >
                 Start Now

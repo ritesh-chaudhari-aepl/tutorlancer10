@@ -53,7 +53,7 @@ export default function Footer(){
         <div className="flex p-3  flex-wrap mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 ">
             <div className="text-xs text-center px-7 max-w-3xl my-2 sm:w-1/2 ">
                 
-                <div>© 2022 theTutorBoat.com. All rights reserved Abhay Education Pvt. Ltd.</div>
+                <div>© 2022 tutorboat.com. All rights reserved Abhay Education Pvt. Ltd.</div>
             </div>
             
             <div className="text-xs text-center px-7 max-w-3xl my-2 sm:w-1/2">

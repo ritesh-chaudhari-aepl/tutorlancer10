@@ -119,7 +119,7 @@ const PricingCard = ({
           </ul>
 
           <a
-            href="#"
+            href="/"
             className="uppercase text-center  bg-btnColor from-orange-home8 to-yellow-home8 sm:px-8 px-12 py-3 text-sm font-medium text-normalWhite transition hover:bg-blue-main focus:outline-none focus:ring focus:ring-yellow-400"
           >
             Buy plan

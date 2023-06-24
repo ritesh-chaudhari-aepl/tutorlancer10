@@ -2,7 +2,13 @@ import React from 'react'
 
 const Page = () => {
   return (
-    <div className='p-4  max-w-screen-2xl mx-auto pt-32'>
+    <div className='p-4  max-w-screen-2xl mx-auto'>
+       <a
+            href="/"  
+            className="inline-block text-normalWhite rounded-xl bg-black px-8 py-4 text-sm font-medium text-lightBg-n transition   capitalize"
+          >
+            Back
+          </a>
       <p className='p-2 font-sans text-base'>Please Read These Terms Carefully Before Using our Service. The use of Urdoer.com is only to be undertaken by those of legal age. Any improper usage is strictly prohibited. Once you have placed an order on this website, you have confirmed that you have read, understood, and agreed with all our Terms and Conditions. Submitting a request and/or payment implies that you are legally obligated to abide by these Terms and Conditions.</p>
       <h1 className='font-bold font-serif text-2xl'>Interpretation Of Our Terms:</h1>
       <p className='p-2 font-sans text-base'>{'"Website"'} means Urdoer.com.</p>

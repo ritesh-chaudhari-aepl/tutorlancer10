@@ -25,7 +25,7 @@ export default function Header({ myRef }) {
     >
       <div className="mx-auto max-w-screen-2xl px-4 sm:px-6 flex justify-between items-center">
         {/* logo */}
-        <a href="#" className="bg-secondary p-1">
+        <a href="/" className="bg-secondary p-1">
           <span className="font-Inter font-bold tracking-[10px] text-2xl uppercase sm:text-[30px]">
              <Image src={logo} height={80} alt="LOGO" />
           </span>
@@ -37,7 +37,7 @@ export default function Header({ myRef }) {
         <div className="hidden   sm:block">
           
           <a
-            href="https://wa.me/message/OXQMEEW5ME6UC1"
+            href="https://wa.me/message/OXQMEEW5ME6UC1"    target="_blank"
             className="inline-block rounded-xl bg-black px-8 py-4 text-sm font-medium text-lightBg-n transition   capitalize"
           >
             Chat With Us

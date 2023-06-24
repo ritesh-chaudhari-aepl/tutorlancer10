@@ -20,7 +20,7 @@ const MobileNav = () => {
         })}
         <div className="item-center justify-center gap-8 flex flex-col lg:hidden">
           <a
-            href="https://wa.me/message/OXQMEEW5ME6UC1"
+            href="https://wa.me/message/OXQMEEW5ME6UC1" targer="_blank" targer="_blank"
             className="inline-block rounded-full bg-transparent px-8 py-4 text-sm font-medium text-black transition hover:bg-indigo-700 capitalize"
           >
            Chat With Us
@@ -50,13 +50,13 @@ const MobileNav = () => {
 
   //         <div className="item-center justify-center gap-8 flex flex-col lg:hidden">
   //           <a
-  //             href="#"
+  //             href="/"
   //             className="inline-block rounded-full bg-transparent px-8 py-4 text-sm font-medium text-black transition hover:bg-indigo-700 capitalize"
   //           >
   //             Sign Up
   //           </a>
   //           <a
-  //             href="#"
+  //             href="/"
   //             className="inline-block rounded-full bg-yellow-dark px-8 py-4 text-sm font-medium text-black transition hover:bg-indigo-700 capitalize"
   //           >
   //             Sign Up{" "}

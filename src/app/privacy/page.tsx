@@ -2,7 +2,13 @@ import React from 'react'
 
 const Page = () => {
   return (
-    <div className='p-4  max-w-screen-2xl mx-auto pt-32'>
+    <div className='p-4  max-w-screen-2xl mx-auto'>
+       <a
+            href="/"  
+            className="inline-block text-normalWhite rounded-xl bg-black px-8 py-4 text-sm font-medium text-lightBg-n transition   capitalize"
+          >
+            Back
+          </a>
         <h1 className='font-bold font-serif text-2xl'>Overview</h1>
         <p className='p-2 font-sans text-base'>We understand your concern about privacy and security of personal details. It is our ethical duty to make you aware of our privacy policy. Here is what we do with your personal information:</p>
         <p className='p-2 font-sans text-base'>- All information about students and tutors is strictly kept within the company.</p>
